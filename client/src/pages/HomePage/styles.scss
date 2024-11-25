@@ -1,0 +1,28 @@
+.homePage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+
+    h1 {
+        font-size: 3rem;
+        margin-top: auto;
+        text-align: center;
+    }
+
+    .btnContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 2rem;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin-top: auto;
+        text-align: center;
+    }
+}
